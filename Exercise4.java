@@ -1,4 +1,4 @@
-/*  !woring
+/*
 Algo-:
 1. accept the value of n;
 2. repeat for i vary from 1-n         --used to keep track of no. of rows
