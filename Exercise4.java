@@ -17,16 +17,18 @@ public class Exercise4 {
         int n,i,j;
         System.out.println("Enter the no. : ");
         n = Integer.parseInt(new Scanner(System.in).nextLine());
-        for (i=1;i<=n;i++){
-            for(j=1;j<=n-i;j++){
-                System.out.print(" ");
-                for(j=1;j<=i;j++){
-                    System.out.print(j);
-                    for(j=i-1;j>=1;j--){
-                        System.out.print(j);
-                    }
-                }
-            }
+        for(i=1;i<=n;i++){
+        //space
+        for(j=1;j<=n-i;j++){
+            System.out.println(" ");
         }
+        for(j=1;j<=i;j++){
+            System.out.println(j+" ");
+        }
+        for(j=i-1;j>0;j--){
+                System.out.println(j+" ");
+        }
+        System.out.println();
+    }
     }
 }
